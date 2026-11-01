@@ -39,7 +39,7 @@ Then install whatever you want by name:
 Copy a skill folder into `~/.claude/skills/`:
 
 ```bash
-npx degit AntonBertrand/claude-agents/plugins/bug-walkthrough/skills/bug-walkthrough ~/.claude/skills/bug-walkthrough
+npx degit --force AntonBertrand/claude-agents/plugins/bug-walkthrough/skills/bug-walkthrough ~/.claude/skills/bug-walkthrough
 ```
 
 Or an agent file into `~/.claude/agents/`:
