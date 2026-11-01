@@ -1,0 +1,11 @@
+{
+  "name": "dev-planning",
+  "description": "Turns a ticket into an investigated, test-baselined implementation plan, reviewed by subagents before any code is written.",
+  "version": "1.0.0",
+  "author": {
+    "name": "AntonBertrand",
+    "url": "https://github.com/AntonBertrand"
+  },
+  "license": "MIT",
+  "repository": "https://github.com/AntonBertrand/claude-agents"
+}

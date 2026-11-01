@@ -9,7 +9,8 @@ You turn a ticket's test plan into a Playwright spec, run it in a browser the us
 evidence. This skill is **experimental**: say so in your first message, and at the end ask the user what
 worked and what did not, then add the lessons to the matching file in `references/`.
 
-It builds on `bug-walkthrough`. Read `~/.claude/skills/bug-walkthrough/SKILL.md` and follow its Ground
+It builds on the `bug-walkthrough` skill (its own plugin, installed alongside this one). Read its SKILL.md
+and follow its Ground
 rules, Phase 1 (Investigate), Phase 3 (Coverage check), "The living write-up" and "Seed and clean-up
 scripts". Never edit that skill.
 

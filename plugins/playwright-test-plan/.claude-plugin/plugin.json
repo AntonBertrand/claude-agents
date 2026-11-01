@@ -1,0 +1,14 @@
+{
+  "name": "playwright-test-plan",
+  "description": "Turns a ticket's test plan into local Playwright tests that run in a visible browser, with screenshots and a write-up. Experimental.",
+  "version": "1.0.0",
+  "author": {
+    "name": "AntonBertrand",
+    "url": "https://github.com/AntonBertrand"
+  },
+  "license": "MIT",
+  "repository": "https://github.com/AntonBertrand/claude-agents",
+  "dependencies": [
+    "bug-walkthrough"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "integration-tester",
+  "description": "Writes and runs unit or integration tests that follow the project's own conventions, and confirms they actually ran.",
+  "version": "1.0.0",
+  "author": {
+    "name": "AntonBertrand",
+    "url": "https://github.com/AntonBertrand"
+  },
+  "license": "MIT",
+  "repository": "https://github.com/AntonBertrand/claude-agents"
+}

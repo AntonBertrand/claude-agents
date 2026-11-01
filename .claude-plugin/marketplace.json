@@ -1,0 +1,71 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "claude-agents",
+  "description": "Agents and skills for planning, code review, testing and team communication",
+  "owner": {
+    "name": "AntonBertrand",
+    "url": "https://github.com/AntonBertrand"
+  },
+  "plugins": [
+    {
+      "name": "bug-walkthrough",
+      "source": "./plugins/bug-walkthrough",
+      "description": "Guides you through reproducing a bug or verifying a fix in the real app, one milestone at a time, checking each result in the database.",
+      "version": "1.0.0",
+      "author": {
+        "name": "AntonBertrand"
+      },
+      "category": "development"
+    },
+    {
+      "name": "dev-planning",
+      "source": "./plugins/dev-planning",
+      "description": "Turns a ticket into an investigated, test-baselined implementation plan, reviewed by subagents before any code is written.",
+      "version": "1.0.0",
+      "author": {
+        "name": "AntonBertrand"
+      },
+      "category": "development"
+    },
+    {
+      "name": "integration-tester",
+      "source": "./plugins/integration-tester",
+      "description": "Writes and runs unit or integration tests that follow the project's own conventions, and confirms they actually ran.",
+      "version": "1.0.0",
+      "author": {
+        "name": "AntonBertrand"
+      },
+      "category": "development"
+    },
+    {
+      "name": "playwright-test-plan",
+      "source": "./plugins/playwright-test-plan",
+      "description": "Turns a ticket's test plan into local Playwright tests that run in a visible browser, with screenshots and a write-up. Experimental.",
+      "version": "1.0.0",
+      "author": {
+        "name": "AntonBertrand"
+      },
+      "category": "development"
+    },
+    {
+      "name": "pr-codereviewer",
+      "source": "./plugins/pr-codereviewer",
+      "description": "Reviews a branch against its target and returns approve or block, with paste-ready comments that read like a colleague wrote them.",
+      "version": "1.0.0",
+      "author": {
+        "name": "AntonBertrand"
+      },
+      "category": "development"
+    },
+    {
+      "name": "team-message-drafting",
+      "source": "./plugins/team-message-drafting",
+      "description": "Drafts short Slack or Teams messages that only ask what research can't answer, and checks them for AI tells.",
+      "version": "1.0.0",
+      "author": {
+        "name": "AntonBertrand"
+      },
+      "category": "productivity"
+    }
+  ]
+}

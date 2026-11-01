@@ -1,0 +1,11 @@
+{
+  "name": "pr-codereviewer",
+  "description": "Reviews a branch against its target and returns approve or block, with paste-ready comments that read like a colleague wrote them.",
+  "version": "1.0.0",
+  "author": {
+    "name": "AntonBertrand",
+    "url": "https://github.com/AntonBertrand"
+  },
+  "license": "MIT",
+  "repository": "https://github.com/AntonBertrand/claude-agents"
+}
